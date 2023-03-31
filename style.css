@@ -1,0 +1,92 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	width: 100%;
+	background-image: url(city.jpg);
+	background-size: cover;
+}
+
+.cuadro {
+	width: 200px;
+	height: 250px;
+	background-color: #467a25;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.cuadro h1 {
+	color: white;
+	font-size: 15px;
+	font-family: 'Alkatra', cursive;
+font-family: 'Gruppo', cursive;
+}
+
+.cuadro h3 {
+	font-size: 10px;
+	margin-top: 5px;
+
+}
+
+.cuadro .btn {
+	height: 50px;
+	width: 150px;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 12px;
+	cursor: pointer;
+	font-family: 'Alkatra', cursive;
+font-family: 'Gruppo', cursive;
+font-weight: bolder;
+}
+
+.cuadro .txt {
+	width: 100px;
+	margin-top: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 830px;
+	width: 100%;
+	background-image: url(city.jpg);
+	background-size: cover;
+}
+
+body .cuadro {
+	width: 300px;
+	height: 500px;
+}
+
+.cuadro h1 {
+	font-size: 25px;
+}
+
+.cuadro h3 {
+	font-size: 20px;
+}
+
+.cuadro .btn {
+	width: 200px;
+	height: 100px;
+	font-size: 20px;
+}
+  
+}
